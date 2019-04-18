@@ -1,9 +1,11 @@
 ## HAPI新增非标准搜索参数
-FHIR标准中各资源的可选择搜索条件是有限的，如果需要增加额外的搜索条件，需要增加自定义搜索条件；
+
+FHIR标准中各资源的标准搜索条件是有限的，如果业务中额外的搜索方式，需要增加自定义搜索条件；
 相关链接:
  - [FHIR searchparameter 是什么](https://www.hl7.org/fhir/searchparameter.html)
  - [Official searchparameter 标准搜索参数的定义](https://www.hl7.org/fhir/search-parameters.json)
 
+---
 >以下测试在HAPI-FHIR基础上展开
 
 **实现步骤：**
