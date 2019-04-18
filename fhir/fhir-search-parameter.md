@@ -8,7 +8,7 @@ FHIR标准中各资源的可选择搜索条件是有限的，如果需要增加�
 
 **实现步骤：**
 1. 创建自定义的SearchParameter资源；
- 1. 需注意status等字段，可能导致parameter不启用；
- 1. 可参考上面链接2中的标准定义；
+ 需注意status等字段，可能导致parameter不启用；
+ 可参考上面链接2中的标准定义；
 1. 触发Re-index，或者新建符合条件的数据；
- 1. HAPI re-index task默认启动，配置项‘hapi.fhir.jpa.scheduling-disabled’（默认false）若为true可能导致任务不启动
+ HAPI re-index task默认启动，配置项‘hapi.fhir.jpa.scheduling-disabled’（默认false）若为true可能导致任务不启动
